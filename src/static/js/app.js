@@ -54,7 +54,7 @@ function TodoListCard() {
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
                 <p className="text-center">
-                    Hello World!
+                    Hello World number 2!
                 </p>
             )}
             {items.map((item) => (
